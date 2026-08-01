@@ -1,8 +1,26 @@
 aid: scope
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scope.png
 name: Scope
-description: 'Scope is a company surfaced as a portfolio company of index-ventures, y-combinator and added
-  to the API Evangelist network as a stub for enrichment. Sector: business-applications. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Scope (Scope Inspection Ltd, London) is an AI-native inspection platform
+  for the Testing, Inspection, and Certification (TIC) industry and heavy-asset operators.
+  It captures field data through voice, video, and forms (offline-capable), extracts
+  structured data from P&IDs, ASME forms, and inspection drawings, surfaces historical
+  inspection context, and automates report generation in Word, Excel, and PDF. The
+  product pushes results into enterprise CMMS/EAM systems via webhooks and prebuilt
+  connectors, but publishes no public developer API, developer portal, OpenAPI, or
+  documentation surface at this time. Backed by Index Ventures and Y Combinator; raised
+  a ~$18-20M round led by Index Ventures in 2026.'
 url: https://raw.githubusercontent.com/api-evangelist/scope/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Business Applications
+- Inspection
+- Testing Inspection Certification
+- Industrial
+- Asset Management
+- Artificial Intelligence
+- Field Service
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.getscope.ai/
+- type: Login
+  url: https://app.getscope.ai/
+- type: TermsOfService
+  url: https://www.getscope.ai/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
